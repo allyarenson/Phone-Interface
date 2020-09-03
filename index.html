@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 1</title>
+	<link rel="stylesheet" href="phone.css">
+</head>
+<body>
+	<div class="tab">
+		<button class="tablink" onclick="openPage('Dialer', this)" id="defaultOpen">Dialer</button>
+		<button class="tablink" onclick="openPage('Contact List', this)">Contact List</button>
+		<button class="tablink" onclick="openPage('Add Contact', this)">Add Contact</button>
+	</div>
+	<div id="Dialer" class="tabcontent">
+		<h3>Dialer</h3>
+		<br>
+		<input type="text" size="34">
+		<div class="btn-group1">
+			<br>
+  			<button>1</button>
+  			<button>2</button>
+  			<button>3</button>
+		</div>
+		<div class="btn-group1">
+  			<button>4</button>
+  			<button>5</button>
+  			<button>6</button>
+		</div>
+		<div class="btn-group1">
+  			<button>7</button>
+  			<button>8</button>
+  			<button>9</button>
+		</div>
+		<div class="btn-group1">
+  			<button>*</button>
+  			<button>0</button>
+  			<button>#</button>
+		</div>
+		<div class="btn-group2">
+  			<button>Dial</button>
+  			<button>Clear</button>
+		</div>
+	</div>
+
+	<div id="Contact List" class="tabcontent">
+		<h3>Contact List</h3>
+		<br>
+		<div class="btn-group3">
+  			<button>Emma Aouielle</button>
+  			<button>Rae Zarou</button>
+  			<button>Ariana Arenson</button>
+		</div>
+		<div class="btn-group3">
+  			<button>Jess Cohen</button>
+  			<button>Luke Guisto</button>
+  			<button>Liz Lajoie</button>
+		</div>
+		<div class="btn-group3">
+  			<button>Liz Armstrong</button>
+  			<button>Ruthie Harwood</button>
+  			<button>Jeff Erickson</button>
+		</div>
+	</div>
+
+	<div id="Add Contact" class="tabcontent">
+		<h3>Add Contact</h3>
+		<div>
+			<br>
+			<p>Name:</p>
+			<input type="text" placeholder="First Last" size="48">
+		</div>
+		<div>
+			<br>
+			<p>Phone Number: </p>
+			<input type="text" placeholder="123-456-7890">
+		</div>
+		<div>
+			<br>
+			<p>Email Address:</p>
+			<input type="text" placeholder="first.last@colorado.edu" size="48">
+		</div>
+		<div class="btn-group4">
+			<br>
+			<button type="button">Add Contact</button>
+			<button type="button">Clear</button>
+		</div>
+	</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="phone.js"></script>
+</html>
+</html>
